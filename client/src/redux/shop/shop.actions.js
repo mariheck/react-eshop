@@ -31,7 +31,6 @@ export const fetchCollectionsStartAsync = () => {
                     snapshot
                 );
                 dispatch(fetchCollectionsSuccess(collectionsMap));
-                this.setState({ loading: false });
             })
             .catch(error => dispatch(fetchCollectionsFailure(error.message)));
     };

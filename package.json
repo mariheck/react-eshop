@@ -1,8 +1,6 @@
 {
     "name": "react-eshop-server",
     "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
     "engines": {
         "node": "12.16.1",
         "npm": "6.14.5"
@@ -30,7 +28,7 @@
         "type": "git",
         "url": "git+https://github.com/mariheck/react-eshop.git"
     },
-    "author": "",
+    "author": "Marine Heckler",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/mariheck/react-eshop/issues"
